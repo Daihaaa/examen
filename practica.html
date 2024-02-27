@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monkey mart</title>
+    <link rel="icon" href="plata-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="practica.css">
+</head>
+<body>
+    <div class="INC1">
+        <div class="INC2" id="mensa">
+            <div class="CONT">
+                <div class="ENC1">
+                    <div class="ENC2">
+                        <div ><span class="iconoMono"></span></div>
+                        <div class="SeccionTienda"><h3 class="Tienda">Tienda</h3></div>
+                    </div>
+                    <div class="ESPACIO"></div>
+                    <div class="EQUIS">
+                        <div class="IMG"><button class="btnx"  onclick="Mensaje()" id="mensa"></button></div>
+                    </div>
+                </div>
+                <div class="SECC">
+                    <!-- FILA 1 -->
+                    <div class="filaArriba">
+                        <div class="caja">
+                            <div class="sombra"></div>
+                            <button id="button1" class="btn" onclick="buyItem('/img/sombrero0.png', 'button1')">
+                                <span class="iconoImagen"></span><h3 class="txtbtn">1000</h3>
+                            </button>
+                        </div>
+
+                        <div class="caja">
+                            <div class="sombra1"></div>
+                            <button id="button2" class="btn" onclick="buyItem('/img/sombrero1.png', 'button2')">
+                                <span class="iconoImagen"></span><h3 class="txtbtn">654</h3>
+                            </button>
+                        </div>
+                        <div class="caja">
+                            <div class="sombra2"></div>
+                            <button id="button3" class="btn" onclick="buyItem('/img/sombrero2.png', 'button3')">
+                                <span class="iconoImagen"></span><h3 class="txtbtn">300</h3>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- FILA 2 -->
+                    <div class="filaArriba">
+                        <div class="caja">
+                            <div class="sombra3"></div>
+                            <button id="button4" class="btn" onclick="buyItem('/img/sombrero3.png', 'button4')">
+                                <span class="iconoImagen"></span><h3 class="txtbtn">300</h3>
+                            </button>
+                        </div>
+
+                        <div class="caja">
+                            <div class="sombra4"></div>
+                            <button id="button5" class="btn" onclick="buyItem('/img/sombrero4.png', 'button5')">
+                                <span class="iconoImagen"></span><h3 class="txtbtn">500</h3>
+                            </button>
+                        </div>
+
+                        <div class="caja">
+                            <div class="sombra5"></div>
+                            <button id="button6" class="btn" onclick="buyItem('/img/sombrero5.png', 'button6')">
+                                <span class="iconoImagen"></span><h3 class="txtbtn">500</h3>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- FILA 3 -->
+                    <div class="filaArriba">
+                        <div class="caja">
+                            <div class="sombra6"></div>
+                            <button id="button7" class="btn"onclick="buyItem('/img/sombrero6.png', 'button7')">
+                                <span class="iconoImagen"></span><h3 class="txtbtn">645</h3>
+                            </button>
+                        </div>
+
+                        <div class="caja">
+                            <div class="sombra7"></div>
+                            <button id="button8" class="btn" onclick="buyItem('/img/sombrero7.png', 'button8')">
+                                <span class="iconoImagen"></span><h3 class="txtbtn">700</h3>
+                            </button>
+                        </div>
+
+                        <div class="caja">
+                            <div class="sombra8">
+                            </div><button id="button9" class="btn" onclick="buyItem('/img/sombrero8.png', 'button9')">
+                                <span class="iconoImagen"></span><h3 class="txtbtn">700</h3>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Caja Flotante -->
+    
+    <div class="miCaja" id="miCaja" >
+        <div class="caja-flotante" >
+            <div class="primero">
+                <h2 class="h44">Compra exitosa</h2>
+            </div>
+            <div class="primero">
+                <img src="" class="mono" id="Itemm">
+            </div>
+            
+            <button class="cerrar"  onclick="ocultarCaja()"><h2 class="h55">Aceptar</h2></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,326 @@
+/* Fondo */
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-image: url("./monkey-MD.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.INC1 {
+    display: grid;
+    height: 100vh;
+}
+
+.INC2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.CONT {
+    border: 2px rgba(92,55,102,255) solid;
+    border-radius: 34px;
+    width: 359px;
+    height: 412px;
+    background-image: url("./fondob.jpg");
+    background-size: cover;
+}
+
+
+/*Encabezado de interfaz */
+
+
+.ENC1 {
+    display: flex;
+    align-items: center;
+    width: 358px;
+    height: 59px;
+}
+
+.ENC2 {
+    display: flex;
+    border: 1.8px rgba(234,203,142,255) solid;
+    border-radius: 18px;
+    width: 213px;
+    height: 34px;
+    margin: 20px;
+    background-color: rgba(255,252,227,255) ;
+    margin: 10px;
+    text-align: center;
+}
+
+.ESPACIO {
+    width: 63px;
+    height: 19px;
+
+}
+
+.EQUIS { 
+    display: inline-flex;
+    width: 51px;
+    height: 38px;
+
+    justify-content: space-around;
+}
+
+.IMG {
+    width: 37px;
+    height: 35px;
+    background-image: url("img/equis.png");
+    background-size: cover;
+}
+
+.btnx {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.iconoMono {
+    background-image: url("caraMon.png");
+    display: inline-flex;
+    width: 52px;
+    height: 38px;
+    background-size: cover; 
+    background-repeat: no-repeat;
+   
+
+}
+
+.SeccionTienda {
+    display: flex;
+    width: 124px;
+    height: 32px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.Tienda {
+    height: 26px;
+    width: 52px;
+    margin: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(89,49,102,255);
+}
+
+
+/* Seccion de cajas */
+
+
+.SECC {
+    display: grid;
+    flex-direction: inherit;
+    margin: 1px 0 0 0;
+}
+
+.filaArriba {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.caja {
+    border: 1.8px rgba(197,151,65,255) solid;
+    border-radius: 9px;
+    height: 88px;
+    width: 88px;
+    margin: 10px;
+    background-image: url("/img/rombo.png");
+    background-size: cover;
+    display: inline-flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.btn {
+    border: 1px rgba(238,146,38,255) solid;
+    border-radius: 6px;
+    background-color:rgba(254,229,104,255);
+    height: 20px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    position: relative;
+    overflow: hidden;
+    width: 87px;
+    cursor: pointer;
+}
+
+.iconoImagen {
+    background-image: url("plata-removebg-preview.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 80%; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 6px;
+    margin: 0.1px;
+}
+
+.txtbtn {
+    margin: 0 0 0 30px;
+    display: inline-flex;
+    text-align: center;
+    color: rgba(89, 49, 102, 255); 
+}
+
+
+/* seccion sombreros */
+
+
+.sombra {
+    margin: 7px;
+    width: 73px;
+    height: 53px;
+    background-image: url(/img/sombrero0.png);
+    background-size: cover;
+}
+
+.sombra1 {
+    width: 79px;
+    height: 52px;
+    background-image: url("/img/sombrero1.png") ;
+    background-size: cover;
+}
+
+.sombra2 {
+    width: 74px;
+    height: 47px;
+    background-image: url("/img/sombrero2.png") ;
+    background-size: cover;
+}
+
+.sombra3 {
+    width: 79px;
+    height: 51px;
+    background-image: url("/img/sombrero3.png") ;
+    background-size: cover;
+}
+
+.sombra4 {
+    width: 80px;
+    height: 52px;
+    background-image: url("/img/sombrero4.png") ;
+    background-size: cover;
+}
+
+.sombra5 {
+    width: 70px;
+    height: 50px;
+    background-image: url("/img/sombrero5.png") ;
+    background-size: cover;
+}
+
+.sombra6 {
+    margin: 11px;
+    width: 63px;
+    height: 42px;
+    background-image: url("/img/sombrero6.png") ;
+    background-size: cover;
+}
+
+.sombra7 {
+    width: 71px;
+    height: 53px;
+    background-image: url("/img/sombrero7.png") ;
+    background-size: cover;
+} 
+
+.sombra8 {
+    width: 66px;
+    height: 51px;
+    background-image: url("/img/sombrero8.png") ;
+    background-size: cover;
+}
+
+
+/* seccion caja flotante */
+
+
+.miCaja {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-flotante {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2px;
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-radius: 12px;
+    background-image: url("/img/rombo.png");
+    
+}
+
+.cerrar {
+    margin: 5px 0 0 0;
+    width: 256px;
+    border: 1px black solid;
+    border-radius: 10px;
+    background-color:rgb(254, 229, 104, 255) ;
+}
+
+.nuevo {
+    top: 50%;
+    border: 1px black solid;
+    border-radius: 10px;
+    background-color:rgb(254, 229, 104, 255) ;
+}
+
+.primero {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 254px;
+    height: 62px;
+}
+
+.mono {
+    margin: -13px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.h44 {
+    margin: 12px;
+    width: 177px;
+    height: 35px;
+    color: rgba(89, 49, 102, 255);
+}
+
+.h55 {
+    margin: 0;
+    color: rgba(89, 49, 102, 255);
+}  
+
+.equipar-text {
+    margin: 0 0 0 5px;
+    color: rgba(89, 49, 102, 255) ;
+}
+
+
+

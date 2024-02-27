@@ -1,0 +1,349 @@
+html {
+    font-family: 'Lexend', sans-serif;
+}
+
+body{
+    background-image: url(./monkey-MD.gif);
+    background-repeat: no-repeat;
+    background-size: 130%  130%;
+    
+    
+    
+}
+
+.cuadro {
+    height: 500px;
+    width: 450px;
+    border: 3px solid;
+    border-radius: 15px;
+    border-color: #6B4B61;
+    background-image: url("./fondob.jpg");
+    background-size: cover;
+    text-align: center;
+
+
+}
+
+
+.cuadro h2 {
+    text-align: center;
+    justify-content: center;
+    font-size: 33px;
+    color: #5C3B66;
+    background-color: #FDFBDE;
+    border-color: black;
+    border-radius: 25px;
+    padding: 2px;
+    width: 400px;
+
+    display: inline-block;
+
+
+}
+
+
+
+.botones {
+    position: center;
+
+}
+
+
+.btn1,
+.btn2,
+.btn3 {
+    height: 25px;
+    display: inline-block;
+    padding: 10px 25px;
+    width: 180px;
+    background-color: #94da74;
+    margin: 2px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: black;
+    color: #5C3B66;
+    box-shadow: 3px 5px 3px rgb(44, 151, 44);
+
+
+
+}
+
+
+
+.boton-musica {
+
+    text-align: center;
+    transform: translate(19%, -120%);
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.wrap-toggle {
+    padding: 5rem;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 40px;
+    cursor: pointer;
+    ;
+}
+
+.switch::after {
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border-radius: 17px;
+    background-color: rgb(97, 124, 243);
+    left: 5px;
+    top: 5px;
+    transition: all 0.4s;
+}
+
+input[type="checkbox"]:checked+.switch::after {
+    transform: translateX(23px);
+    background-color: white;
+}
+
+input[type="checkbox"]:checked+.switch {
+    background-color: rgb(132, 158, 243);
+}
+
+.offscreen {
+    position: absolute;
+    left: -999999px;
+}
+
+.message {
+    position: absolute;
+    top: 45%;
+    left: 52%;
+    color: rgb(17, 17, 17);
+    font-size: 10px;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+.boton-sonido {
+    text-align: center;
+    transform: translate(19%, -120%);
+    padding: 1px;
+}
+
+.switch-label {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.switch-label::after {
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border-radius: 17px;
+    background-color: rgb(97, 124, 243);
+    left: 5px;
+    top: 5px;
+    transition: all 0.4s;
+}
+
+input[type="checkbox"]:checked+.switch-label::after {
+    transform: translateX(23px);
+    background-color: white;
+}
+
+input[type="checkbox"]:checked+.switch-label {
+    background-color: rgb(132, 158, 243);
+
+}
+
+.switchc {
+    position: absolute;
+    left: -999999px;
+}
+
+.mensaje {
+    position: absolute;
+    top: 45%;
+    left: 52%;
+    color: rgb(17, 17, 17);
+    font-size: 10px;
+    transform: translate(-50%, -50%);
+
+}
+
+#cerrarBtn {
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    top: 0px;
+    left: 425px;
+    cursor: pointer;
+    z-index: 220;
+    background-image: url('./cerrar.png');
+    background-repeat: no-repeat;
+}
+
+#close {
+    width: 27px;
+}
+
+.tuerca {
+    max-width: 100%;
+    position: relative;
+    top: -60%;
+    bottom: 30%;
+    left: -40%;
+    right: auto;
+
+
+
+}
+
+#tuerc {
+    width: 65px;
+    top: 45%;
+
+}
+
+.music {
+
+    position: relative;
+    top: -58.5%;
+    bottom: 20%;
+    left: -22%;
+    right: -17%;
+    width: 5px;
+    height: 5px;
+
+
+}
+
+#musica {
+    width: 40px;
+    top: 45%;
+
+
+}
+
+.sound {
+    max-width: 100%;
+    position: relative;
+    top: -45.5%;
+    bottom: 30%;
+    left: -22%;
+    right: -17%;
+    width: 5px;
+    height: 5px;
+
+}
+
+#sonido {
+    width: 40px;
+    top: 45%;
+
+
+}
+
+
+.flag {
+
+    position: relative;
+    top: -32.5%;
+    bottom: 30%;
+    left: 27%;
+    right: -22%;
+    width: 5px;
+    height: 5px;
+
+}
+
+#bandera {
+    width: 40px;
+    top: 45%;
+
+}
+
+
+.forml{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 66%;
+    position: absolute;
+    width: 400px;
+    left: 20px;
+    text-align: center;
+   color: #5C3B66;
+} 
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+    
+   
+}
+
+ 
+
+
+input{
+    padding: 4px 2px;
+    border: 1px solid;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: #94da74;
+    margin-bottom: 15px;
+    outline: none;
+    
+}
+
+.label{
+    font-size: 15px;
+    background-color: #94da74;
+    top: -13px;
+   
+}
+.btn{
+  width: 100px;
+    border: 1px solid;
+    font-size: 16px;
+    background-color: #94da74;
+    border-radius: 15px;
+    transform: translate(-40%);
+}
+
+#borrar{
+    width: 90px;
+    border: 1px solid;
+    font-size: 14px;
+    transform: translate(90%, -95%);
+}
+
+.cuadro,
+.music,
+.sound,
+.lengua {
+    margin: 20px auto;
+    position: relative;
+    position: relative;
+    z-index: 1;
+}
